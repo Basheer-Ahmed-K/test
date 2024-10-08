@@ -1,0 +1,13 @@
+<RULES>
+	
+							<RULE ID="RULE_ALLOW_ALL_COLUMNS" GLOBAL_TYPE="2">
+								<NAME><![CDATA[Allow All Columns]]></NAME>
+								<DESC><![CDATA[This rule specifies that no column level security is applied. The user will be allowed all columns ignoring any other column level security for this user.]]></DESC>
+							</RULE>
+
+	
+							<RULE ID="RULE_ALLOW_ALL_ROWS" GLOBAL_TYPE="1">
+								<NAME><![CDATA[Allow All Rows]]></NAME>
+								<DESC><![CDATA[This rule specifies that no row level security is applied. The user will be allowed all rows ignoring any other row level security for this user.]]></DESC>
+							</RULE>
+</RULES>
